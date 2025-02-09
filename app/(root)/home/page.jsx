@@ -1,12 +1,13 @@
 "use client"
-import Alert from '@/components/ui/Alert'
+
 import { Button } from '@/components/ui/button'
+import GetUsers from '@/components/ui/GetUsers'
 import React from 'react'
 
 const showDialog=()=>{
 return(
   <>  
-  
+  {/* <GetUsers/> */}
   </>
 )
 }
@@ -15,6 +16,7 @@ const home = () => {
     <div>
       home
     {/* <Alert/>  */}
+    <GetUsers/>
     </div>
   )
 }
